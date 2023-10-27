@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+button{
+    font-size: xx-large;
+    height: 55px;
+    width: 75px;
+    color: blueviolet;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    
+}
+button:hover{
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(0, 0, 0); */
+    box-shadow: inset 0 0 60px whitesmoke,
+   inset 20px 0 80px rgb(125, 181, 136),
+   inset -20px 0 80px rgb(67, 168, 168),
+   inset 20px 0 300px rgb(175, 92, 92),
+   inset -20px 0 300px #0ff,
+   0 0 50px #fff,
+   -10px 0 80px rgb(253, 216, 253),
+   10px 0 80px #0ff
+   ;
+}
+#result{
+    width: 313px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4px; 
+    border-radius: 12px;
+    box-shadow: inset 0 0 60px whitesmoke,
+   inset 20px 0 80px rgb(201, 205, 199),
+   inset -20px 0 80px rgb(144, 149, 145),
+   inset 20px 0 300px rgb(0, 255, 251),
+   inset -20px 0 300px rgb(0, 255, 60),
+   0 0 50px #fff,
+   -10px 0 80px rgb(0, 255, 140),
+   10px 0 80px #0ff
+   ;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.main{
+    border:3px solid rgb(183, 183, 183);
+    width: 650px;
+    height: 520px;
+   justify-content: center;
+   display: grid;
+   border-radius: 12px;
+   margin-top: 10%;
+   box-shadow: inset 0 0 60px whitesmoke,
+   inset 20px 0 80px #f0f,
+   inset -20px 0 80px #0ff,
+   inset 20px 0 300px #f0f,
+   inset -20px 0 300px #0ff,
+   0 0 50px #fff,
+   -10px 0 80px #f0f,
+   10px 0 80px #0ff
+   ;
+}
